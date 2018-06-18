@@ -2,10 +2,10 @@
 # out the current state.
 def display_board(board)
 
-rows= ["   |   |   \n", "-----------\n", "   |   |   \n", "-----------\n", "   |   |   \n"]
+rows= ["   |   |   \n","-----------\n","   |   |   \n","-----------\n","   |   |   \n"]
 puts "#{rows[0]},#{rows[1]},#{rows[2]},#{rows[3]},#{rows[4]}"
 
 end
 
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+board = [" "," "," "," "," "," "," "," "," "]
 display_board(board)
