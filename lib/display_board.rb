@@ -1,7 +1,14 @@
 # Define display_board that accepts a board and prints
 # out the current state.
-def display_board(board) 
-  puts " #{board[0]} | #{board[1]} | #{board[2]} \n-----------\n #{board[3]} | #{board[4]} | #{board[5]} \n-----------\n #{board[6]} | #{board[7]} | #{board[8]} " 
-end 
-#puts "Welcome to Tic Tac Toe" 
-display_board(["X", " ", " ", " ", " ", " ", " ", " ", " "])
+def display_board(board)
+
+rows[0] = "   |   |   \n"
+rows[1] = "-----------\n" 
+rows[2] = "   |   |   \n"
+rows[3] = "-----------\n" 
+rows[4] = "   |   |   \n"
+
+end
+
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+display_board(board)
